@@ -1,0 +1,42 @@
+:root{
+  --first:#8C1F28;
+  --second: #591C21;
+  --green: #044040;
+  --four: #D92525;
+  --white: #F2F2F2;
+  --font-size: 1.5rem;
+  --libre: "LibreBaskerville", monospace;
+  --roboto: Roboto, sans-serif;
+}
+
+
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+
+
+html,
+body,
+#root{
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: var(--libre);
+  background: radial-gradient(circle, rgba(89,28,33,1) 0%, rgba(4,64,64,1) 100%);
+  color: var(--white);
+  font-size: var(--font-size);
+  box-sizing: border-box;
+}
+
+
+h1,
+h2,
+h3 {
+
+  margin: 0;
+
+}
+
